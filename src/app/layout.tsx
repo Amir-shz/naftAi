@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import "./globals.css";
+import "../styles/globals.css";
 import Header from "@/components/layout/Header";
 import { Modak } from "next/font/google";
 
@@ -64,13 +64,13 @@ export default function RootLayout({
   return (
     <html lang="fa" dir="rtl">
       <body
-        className={`${iranSans.variable} ${iranSans.className} antialiased overflow-x-hidden container bg-background text-neutral-700`}
+        className={`${iranSans.variable} ${iranSans.className} antialiased overflow-x-hidden bg-background text-neutral-700`}
       >
         <div className="w-full grid grid-cols-12 px-6 max-md:px-4">
-          <div className="col-start-2 col-end-12 max-lg:col-span-full ">
+          <div className="col-start-2 col-end-12 max-lg:col-span-full z-10 ">
             <Header />
-            {children}
           </div>
+          <div className="col-span-full">{children}</div>
         </div>
       </body>
     </html>

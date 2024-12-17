@@ -1,3 +1,9 @@
+import HeroSection from "@/components/layout/HeroSection";
+
 export default function Page() {
-  return <div></div>;
+  return (
+    <>
+      <HeroSection />
+    </>
+  );
 }

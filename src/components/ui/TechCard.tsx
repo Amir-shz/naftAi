@@ -29,7 +29,9 @@ function TechCard({
         <h2 className="text-2xl max-sm:text-lg font-bold max-sm:font-semibold text-neutral-700">
           {title}
         </h2>
-        <p className="text-neutral-500 text-justify pl-2">{description}</p>
+        <p className="text-neutral-500 text-justify pl-2 max-sm:text-sm max-sm:font-medium">
+          {description}
+        </p>
       </div>
       {/* <div className=" self-center bg-sky-500 p-3 [&>svg]:text-white rounded-full hover:bg-sky-600 transition-all duration-300 md:-translate-x-9 max-md:translate-y-9 [&>svg]:size-6 cursor-pointer">
         <HiOutlineChevronDoubleLeft className=" max-md:hidden" />

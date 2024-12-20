@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "../styles/globals.css";
 import Header from "@/components/layout/Header";
 import { Modak } from "next/font/google";
+import Footer from "@/components/layout/Footer";
 
 const iranSans = localFont({
   src: [
@@ -72,6 +73,7 @@ export default function RootLayout({
           </div>
           <div className="col-span-full">{children}</div>
         </div>
+        <Footer />
       </body>
     </html>
   );

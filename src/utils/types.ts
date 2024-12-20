@@ -37,3 +37,9 @@ export interface TechCardProps {
   title: string;
   description: string;
 }
+
+export interface socialIconProps {
+  size: "sm" | "lg";
+  href: string;
+  children: React.ReactNode;
+}

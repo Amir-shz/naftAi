@@ -42,7 +42,7 @@ function Nav({ children }: navProps) {
         </DrawerTrigger>
         <DrawerPortal>
           <DrawerOverlay />
-          <DrawerContent className=" w-2/3 h-dvh bg-sky-50 [&>div:first-child]:hidden rounded-none">
+          <DrawerContent className=" w-3/4 h-dvh bg-sky-50 [&>div:first-child]:hidden rounded-none">
             <DrawerHeader className="flex flex-col items-center justify-center -mt-8">
               <DrawerTitle>{children}</DrawerTitle>
               <DrawerDescription className=" -mt-8">

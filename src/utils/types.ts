@@ -16,3 +16,24 @@ export interface buttonProps {
   type: "primary" | "secondary";
   children: React.ReactNode;
 }
+
+export interface sectionHeaderProps {
+  title: string;
+  icon: React.ReactNode;
+}
+
+export interface sectionContainerProps {
+  children: React.ReactNode;
+}
+
+export interface serviceCardProps {
+  icon: React.ReactNode;
+  title: string;
+  text: string;
+}
+
+export interface TechCardProps {
+  photo: string;
+  title: string;
+  description: string;
+}

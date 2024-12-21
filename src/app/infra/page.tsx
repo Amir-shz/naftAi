@@ -1,32 +1,34 @@
 function Page() {
   return (
-    <section className=" my-10 text-justify">
+    <section className=" my-10 text-justify max-sm:px-3">
       <div className="max-w-6xl mx-auto space-y-4">
-        <h2 className="text-3xl lg:text-4xl font-bold text-sky-600 text-center">
-          بخش زیرساخت: سرور LLM
-        </h2>
+        <div className=" shadow-md rounded-md p-4 mt-8 border space-y-4">
+          <h2 className="text-3xl font-bold text-sky-600 text-center max-sm:text-xl">
+            بخش زیرساخت: سرور LLM
+          </h2>
 
-        <div className="text-neutral-700 text-lg leading-relaxed">
-          <p>
-            سرور LLM ویژه پالایشگاه‌های نفتی به‌طور خاص برای استفاده در پردازش
-            داده‌های بزرگ، تحلیل‌های پیچیده و بهینه‌سازی عملیات در صنایع نفت و
-            گاز طراحی می‌شوند. این سرورها، که معمولاً به مدل‌های زبان بزرگ
-            (Large Language Models - LLM) مجهز هستند، به پالایشگاه‌ها کمک
-            می‌کنند تا از داده‌های خود به شکلی مؤثرتر بهره‌برداری کنند و
-            فرآیندهای مختلف عملیاتی را بهبود بخشند.
-          </p>
-          <p>
-            این مدل‌ها می‌توانند در زمینه‌هایی مانند مدیریت عملیات، پیش‌بینی
-            خرابی‌ها، تحلیل داده‌های فرآیندی، تجزیه و تحلیل احساسات در نظرات
-            مشتریان، و بهینه‌سازی مصرف انرژی به پالایشگاه‌ها کمک کنند.
-          </p>
+          <div className="text-neutral-700 text-lg leading-relaxed max-sm:text-base">
+            <p>
+              سرور LLM ویژه پالایشگاه‌های نفتی به‌طور خاص برای استفاده در پردازش
+              داده‌های بزرگ، تحلیل‌های پیچیده و بهینه‌سازی عملیات در صنایع نفت و
+              گاز طراحی می‌شوند. این سرورها، که معمولاً به مدل‌های زبان بزرگ
+              (Large Language Models - LLM) مجهز هستند، به پالایشگاه‌ها کمک
+              می‌کنند تا از داده‌های خود به شکلی مؤثرتر بهره‌برداری کنند و
+              فرآیندهای مختلف عملیاتی را بهبود بخشند.
+            </p>
+            <p>
+              این مدل‌ها می‌توانند در زمینه‌هایی مانند مدیریت عملیات، پیش‌بینی
+              خرابی‌ها، تحلیل داده‌های فرآیندی، تجزیه و تحلیل احساسات در نظرات
+              مشتریان، و بهینه‌سازی مصرف انرژی به پالایشگاه‌ها کمک کنند.
+            </p>
+          </div>
         </div>
 
-        <div>
-          <h3 className="text-2xl font-semibold text-sky-600 mb-2">
+        <div className=" shadow-md rounded-md p-4 mt-8 border">
+          <h3 className="text-2xl font-semibold text-sky-600 mb-2 max-sm:text-xl">
             عملکرد سرور LLM ویژه پالایشگاه‌های نفتی:
           </h3>
-          <p className="text-neutral-700 text-lg leading-relaxed">
+          <p className="text-neutral-700 text-lg leading-relaxed max-sm:text-base">
             سرورهای LLM در پالایشگاه‌های نفتی معمولاً از مدل‌های زبان بزرگ برای
             انجام وظایف مختلف استفاده می‌کنند که به تحلیل داده‌ها و پشتیبانی از
             تصمیمات کمک می‌کند. در اینجا چند مثال از نحوه عملکرد این سرورها و
@@ -172,10 +174,12 @@ function Page() {
               </ul>
             </li>
           </ol>
-          <h3 className="text-2xl font-semibold text-sky-700 mt-8 mb-2">
+        </div>
+        <div className=" shadow-md rounded-md p-4 mt-8 border">
+          <h3 className="text-2xl font-semibold text-sky-700  mb-2 max-sm:text-xl">
             جمع‌بندی
           </h3>
-          <p className=" leading-relaxed">
+          <p className=" leading-relaxed max-sm:text-base">
             سرورهای LLM ویژه پالایشگاه‌های نفتی به‌عنوان ابزارهای پیشرفته برای
             تجزیه و تحلیل داده‌های فرآیندی، پیش‌بینی خرابی‌ها، بهینه‌سازی مصرف
             انرژی و بهبود ایمنی در پالایشگاه‌ها عمل می‌کنند. این سرورها

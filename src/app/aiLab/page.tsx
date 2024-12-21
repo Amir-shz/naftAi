@@ -16,7 +16,7 @@ function Page(): React.ReactNode {
         {aiLabSections.map((section, index) => (
           <section
             key={index}
-            className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300"
+            className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300 max-sm:p-3"
           >
             <h2 className="text-2xl font-bold text-sky-600 max-sm:text-xl">
               {section.title}

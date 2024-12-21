@@ -12,7 +12,7 @@ function Page(): React.ReactNode {
           پالایشگاه‌ها
         </p>
       </header>
-      <main className="max-w-5xl mx-auto py-12 px-6 space-y-12 max-sm:py-6 max-sm:px-2">
+      <main className="max-w-7xl mx-auto py-12 px-6 space-y-12 max-sm:py-6 max-sm:px-2">
         {aiLabSections.map((section, index) => (
           <section
             key={index}

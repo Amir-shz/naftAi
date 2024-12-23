@@ -44,3 +44,9 @@ export interface socialIconProps {
   href: string;
   children: React.ReactNode;
 }
+
+export interface testimonialItemProps {
+  photo: string;
+  text: string;
+  person: string;
+}

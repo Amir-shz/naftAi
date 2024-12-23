@@ -12,10 +12,10 @@ function Button({ href, withHover, type, children }: buttonProps) {
         : type === "primary"
         ? "bg-sky-600 text-neutral-100 "
         : type === "secondary"
-        ? "bg-sky-100"
+        ? "bg-sky-50 hover:bg-blue-200 transition-all duration-300"
         : ""
     }
-    inline-block text-lg font-medium  px-8 py-2 rounded-md max-sm:px-4 max-sm:py-2 max-sm:text-base max-sm:rounded
+    inline-block text-xl font-semibold  px-8 py-2 rounded-md max-sm:px-4 max-sm:py-2 max-sm:text-base max-sm:rounded
     `}
     >
       {children}

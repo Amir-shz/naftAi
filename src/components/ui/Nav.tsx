@@ -37,15 +37,15 @@ function Nav({ children }: navProps) {
         ))}
       </ul>
       <Drawer direction="right" open={isOpen} onOpenChange={setIsOpen}>
-        <DrawerTrigger className=" md:hidden bg-sky-100 p-2 rounded-full">
-          <HiOutlineMenu className=" size-6 text-sky-600" />
+        <DrawerTrigger className=" md:hidden">
+          <HiOutlineMenu className=" size-7 text-neutral-700" />
         </DrawerTrigger>
         <DrawerPortal>
           <DrawerOverlay />
-          <DrawerContent className=" w-3/4 h-dvh bg-sky-50 [&>div:first-child]:hidden rounded-none">
+          <DrawerContent className=" w-3/4 h-dvh bg-neutral-50 [&>div:first-child]:hidden rounded-none">
             <DrawerHeader className="flex flex-col items-center justify-center -mt-8">
               <DrawerTitle>{children}</DrawerTitle>
-              <DrawerDescription className=" -mt-8">
+              <DrawerDescription className=" -mt-8 font-semibold">
                 پیشرو در هوش مصنوعی
               </DrawerDescription>
             </DrawerHeader>

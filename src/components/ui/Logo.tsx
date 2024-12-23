@@ -5,7 +5,7 @@ function Logo() {
   return (
     <Link
       href="/"
-      className={` ${modak.className} text-3xl tracking-widest p-2 max-sm:text-2xl`}
+      className={` ${modak.className} text-[26px] tracking-widest p-2 max-sm:text-2xl`}
     >
       <p>
         naft

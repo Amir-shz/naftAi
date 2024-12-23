@@ -67,8 +67,8 @@ export default function RootLayout({
       <body
         className={`${iranSans.variable} ${iranSans.className} antialiased overflow-x-hidden bg-background text-neutral-700`}
       >
-        <div className="w-full grid grid-cols-12 px-6 max-md:px-4">
-          <div className="col-start-2 col-end-12 max-lg:col-span-full z-10 ">
+        <div className="w-full grid grid-cols-12">
+          <div className="col-span-full bg-blue-100 px-8 max-md:px-4  ">
             <Header />
           </div>
           <div className="col-span-full">{children}</div>

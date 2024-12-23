@@ -8,16 +8,11 @@ import {
   HiOutlineBanknotes,
   HiOutlineGlobeAsiaAustralia,
 } from "react-icons/hi2";
-
 import { motion } from "motion/react";
-import { useEffect } from "react";
 
 function HeroSection() {
-  useEffect(() => {
-    window.scroll(0, 50);
-  }, []);
   return (
-    <section className=" bg-blue-100 px-8 pt-16 pb-28 max-md:pt-8 max-sm:pt-2 max-md:px-4 max-md:pb-16  ">
+    <section className=" bg-blue-100 px-8 pt-16 pb-28 max-md:pt-8 max-sm:pt-2 max-md:px-4 max-md:pb-16   ">
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}

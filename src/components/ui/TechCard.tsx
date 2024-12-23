@@ -23,7 +23,7 @@ function TechCard({
           width={500}
           height={500}
           alt={title}
-          className="w-[45%] max-lg:w-[35%]"
+          className="w-[45%] max-lg:w-[30%]"
         />
       </div>
     </div>

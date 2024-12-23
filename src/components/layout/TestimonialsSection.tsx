@@ -13,7 +13,7 @@ function TestimonialsSection() {
           icon={<HiOutlineChatBubbleBottomCenterText />}
         />
       </div>
-      <section className=" grid grid-cols-[55fr_45fr] items-center max-lg:grid-cols-1 py-4">
+      <section className=" grid grid-cols-[55fr_45fr] items-center max-lg:grid-cols-1 py-4 overflow-x-hidden">
         <div className=" pt-0 p-24 max-xl:p-16 max-lg:px-8 max-sm:py-8">
           <div className="grid grid-cols-2 gap-x-20 gap-y-12 max-sm:grid-cols-1">
             {testimonials.map((testimonial) => (

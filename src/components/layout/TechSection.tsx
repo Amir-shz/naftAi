@@ -12,10 +12,11 @@ function TechSection() {
         ما از جدیدترین نرم افزارها و ابزارهای هوش مصنوعی و تحلیل داده استفاده می
         کنیم تا خدماتی کارآمد و دقیق ارائه دهیم
       </p>
-      <div className=" flex flex-col gap-4">
-        {techItems.map((item) => (
+      <div className="container max-w-7xl flex flex-col">
+        {techItems.map((item, index) => (
           <TechCard
             key={item.id}
+            num={index + 1}
             title={item.title}
             photo={item.photo}
             description={item.description}

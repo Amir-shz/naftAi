@@ -33,6 +33,7 @@ export interface serviceCardProps {
 }
 
 export interface TechCardProps {
+  num: number;
   photo: string;
   title: string;
   description: string;

@@ -1,42 +1,31 @@
 import { TechCardProps } from "@/utils/types";
 import Image from "next/image";
 import React from "react";
-// import {
-//   HiOutlineArrowCircleLeft,
-//   HiOutlineArrowLeft,
-//   HiOutlineChevronDoubleDown,
-//   HiOutlineChevronDoubleLeft,
-// } from "react-icons/hi";
 
 function TechCard({
+  num,
   photo,
   title,
   description,
 }: TechCardProps): React.ReactNode {
-  console.log(photo);
   return (
-    <div className=" w-full flex justify-start max-md:flex-col max-md:items-center gap-4 max-md:gap-2 rounded-lg shadow-md bg-sky-50 p-3">
-      <figure className=" flex-none rounded-sm overflow-hidden w-56 min-h-56 max-md:w-full max-md:h-56 hover:[&>img]:scale-110 ">
-        <Image
-          src={photo}
-          alt={title}
-          width={500}
-          height={500}
-          className="size-full rounded-sm object-cover transition-all duration-300"
-        />
-      </figure>
-      <div className="max-sm:self-start mt-4 max-md:mt-2 flex flex-col gap-2 max-sm:gap-0 ">
-        <h2 className="text-2xl max-sm:text-lg font-bold max-sm:font-semibold text-neutral-700">
-          {title}
-        </h2>
-        <p className="text-neutral-500 text-justify pl-2 max-sm:text-sm max-sm:font-medium">
+    <div className=" grid grid-cols-2 gap-6 items-center my-12 max-lg:grid-cols-1 ">
+      <div className={`${num % 2 === 0 && "lg:order-2"}`}>
+        <p className=" mb-3 text-neutral-300 font-semibold text-8xl">{num}</p>
+        <h3 className=" font-bold text-3xl text-neutral-700 mb-7">{title}</h3>
+        <p className=" text-base leading-7 font-medium text-neutral-600 max-lg:mb-14 max-sm:mb-6 ">
           {description}
         </p>
       </div>
-      {/* <div className=" self-center bg-sky-500 p-3 [&>svg]:text-white rounded-full hover:bg-sky-600 transition-all duration-300 md:-translate-x-9 max-md:translate-y-9 [&>svg]:size-6 cursor-pointer">
-        <HiOutlineChevronDoubleLeft className=" max-md:hidden" />
-        <HiOutlineChevronDoubleDown className=" md:hidden" />
-      </div> */}
+      <div className=" flex justify-center items-center relative before:content-[''] before:block before:w-[70%] before:bg-sky-100 before:rounded-[50%] before:absolute before:-z-20 before:pb-[70%] after:content-[''] after:block after:w-[55%] after:pb-[55%] after:absolute after:-z-10 after:rounded-[50%] after:bg-sky-200 max-lg:before:w-[55%] max-lg:before:pb-[55%] max-lg:after:w-[40%] max-lg:after:pb-[40%] max-lg:translate-y-8 ">
+        <Image
+          src={photo}
+          width={500}
+          height={500}
+          alt={title}
+          className="w-[45%] max-lg:w-[35%]"
+        />
+      </div>
     </div>
   );
 }

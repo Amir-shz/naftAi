@@ -4,7 +4,7 @@ import InvestmentForm from "@/components/ui/InvestmentForm";
 
 function Page() {
   return (
-    <div className=" flex gap-8 my-8 container max-md:flex-col-reverse max-md:gap-2 max-md:my-4">
+    <div className=" flex justify-center gap-8 my-8 container max-md:flex-col-reverse max-md:gap-2 max-md:my-4 px-4 max-sm:px-2">
       <div className="basis-1/2 rounded-lg shadow-md border p-8 max-md:p-6 max-sm:p-4">
         <h3 className=" text-sky-600 text-xl font-black max-sm:text-lg">
           دعوت به همکاری:

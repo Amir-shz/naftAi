@@ -1,6 +1,6 @@
 function Page() {
   return (
-    <section className=" my-10 text-justify max-sm:px-1">
+    <section className=" my-10 text-justify max-sm:px-2 px-4">
       <div className="max-w-6xl mx-auto space-y-4">
         <div className=" shadow-md rounded-md p-4 mt-8 border space-y-4">
           <h2 className="text-3xl font-bold text-sky-600 text-center max-sm:text-xl">

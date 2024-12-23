@@ -38,7 +38,7 @@ function HeroSection() {
             transition={{ delay: 0.5, duration: 0.3 }}
             className=" mt-12 flex gap-4 items-start max-md:block max-md:mx-auto max-md:w-fit max-md:[&>a:first-child]:mx-2 max-md:mt-6"
           >
-            <Button href="/investment" withHover={true} type="primary">
+            <Button href="/Investment" withHover={true} type="primary">
               سرمایه گذاری
             </Button>
             <Button href="/infra" withHover={false} type="secondary">

@@ -3,7 +3,7 @@ import { HiMiniArrowSmallLeft, HiMiniArrowSmallRight } from "react-icons/hi2";
 
 function FeaturedSection() {
   return (
-    <div className="-mb-4">
+    <div className="-mb-4 container">
       <p className=" text-center text-sky-600 font-bold text-sm mb-12">
         شرکت هایی که در کار خود از هوش مصنوعی استفاده کرده اند
       </p>

@@ -27,7 +27,7 @@ export interface sectionContainerProps {
 }
 
 export interface serviceCardProps {
-  icon: React.ReactNode;
+  photo: string;
   title: string;
   text: string;
 }

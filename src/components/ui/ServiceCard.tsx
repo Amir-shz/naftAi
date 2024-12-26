@@ -9,7 +9,7 @@ function ServiceCard({ photo, title, text }: serviceCardProps) {
       initial={{ opacity: 0, scale: 0.7 }}
       whileInView={{ opacity: 1, scale: 1 }}
       viewport={{ once: true }}
-      transition={{ duration: 0.5, delay: 0.3 }}
+      transition={{ duration: 0.7 }}
       className="flex bg-gradient-to-br from-sky-50 to-sky-300 rounded-md items-center w-[90%] shadow-md max-lg:flex-col max-lg:w-full max-lg:justify-center"
     >
       <Image

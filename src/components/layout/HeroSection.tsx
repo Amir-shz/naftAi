@@ -50,15 +50,15 @@ function HeroSection() {
             transition={{ delay: 0.8, duration: 0.25 }}
             className=" mt-8 w-full flex flex-wrap gap-8 [&_svg]:text-sky-500 [&_svg]:size-6  [&_p]:font-semibold [&_p]:text-sky-800 [&_p]:text-sm max-md:justify-between max-md:gap-4 max-md:mt-4"
           >
-            <div className=" flex gap-1 items-center">
+            <div className=" flex gap-1 items-center max-sm:basis-full">
               <HiArrowTrendingUp />
               <p>افزایش بهره وری</p>
             </div>
-            <div className=" flex gap-1 items-center">
+            <div className=" flex gap-1 items-center max-sm:basis-full">
               <HiOutlineBanknotes />
               <p>کاهش هزینه ها</p>
             </div>
-            <div className=" flex gap-1 items-center">
+            <div className=" flex gap-1 items-center max-sm:basis-full">
               <HiOutlineGlobeAsiaAustralia />
               <p>حفظ محیط زیست</p>
             </div>

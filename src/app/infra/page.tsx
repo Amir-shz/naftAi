@@ -13,7 +13,7 @@ function Page() {
     <section className=" my-10 text-justify max-sm:px-3 px-4 max-md:my-4">
       <div className="max-w-6xl mx-auto space-y-4">
         <div className=" shadow-md rounded-md p-4 max-md:p-3 mt-8 border [&_img]:rounded  font-medium [&_strong]:font-black">
-          <h2 className="text-2xl font-bold text-sky-600 text-center mb-4 max-sm:text-xl">
+          <h2 className="text-2xl font-bold text-sky-600 text-center mb-4 max-sm:text-xl max-sm:mb-2">
             بخش زیرساخت: سرور LLM
           </h2>
           <div className="flex max-md:flex-col gap-2">
@@ -52,7 +52,7 @@ function Page() {
           <div className="[&>div]:gap-6 [&>div]:items-center max-md:[&>div]:grid-cols-1 flex flex-col gap-6 mt-4">
             <div className="grid grid-cols-2">
               <div>
-                <strong>
+                <strong className="mb-2 block">
                   <span className=" text-4xl font-bold text-neutral-400 ">
                     ۱.{" "}
                   </span>
@@ -97,7 +97,7 @@ function Page() {
                 />
               </div>
               <div>
-                <strong>
+                <strong className="mb-2 block">
                   <span className=" text-4xl font-bold text-neutral-400 ">
                     ۲.{" "}
                   </span>
@@ -126,7 +126,7 @@ function Page() {
             </div>
             <div className="grid grid-cols-2">
               <div>
-                <strong>
+                <strong className="mb-2 block">
                   <span className=" text-4xl font-bold text-neutral-400 ">
                     ۳.{" "}
                   </span>
@@ -168,7 +168,7 @@ function Page() {
                 />
               </div>
               <div>
-                <strong>
+                <strong className="mb-2 block">
                   <span className=" text-4xl font-bold text-neutral-400 ">
                     ۴.{" "}
                   </span>
@@ -197,7 +197,7 @@ function Page() {
             </div>
             <div className="grid grid-cols-2">
               <div>
-                <strong>
+                <strong className="mb-2 block">
                   <span className=" text-4xl font-bold text-neutral-400 ">
                     ۵.{" "}
                   </span>
@@ -240,7 +240,7 @@ function Page() {
                 />
               </div>
               <div>
-                <strong>
+                <strong className="mb-2 block">
                   <span className=" text-4xl font-bold text-neutral-400 ">
                     ۶.{" "}
                   </span>

@@ -22,7 +22,7 @@ function Page(): React.ReactNode {
               <h3 className=" text-xl font-semibold text-sky-700 mb-2">
                 {section.title}
               </h3>
-              <div className=" pr-8">
+              <div className=" pr-8 max-sm:pr-4">
                 <p className=" font-medium">{section.description}</p>
                 <h4 className=" font-semibold text-lg my-2 text-sky-600">
                   کاربردها:
@@ -30,7 +30,7 @@ function Page(): React.ReactNode {
                 <ul className=" list-disc list-inside pr-4">
                   {section.applications.map((app, idx) => (
                     <li key={idx} className=" font-medium my-1">
-                      {app}
+                      <span className="relative -right-2">{app}</span>
                     </li>
                   ))}
                 </ul>
@@ -40,7 +40,7 @@ function Page(): React.ReactNode {
                 <ul className=" list-disc list-inside pr-4">
                   {section.ideas.map((idea, idx) => (
                     <li key={idx} className=" font-medium my-1">
-                      {idea}
+                      <span className="relative -right-2">{idea}</span>
                     </li>
                   ))}
                 </ul>

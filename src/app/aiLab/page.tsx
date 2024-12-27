@@ -1,10 +1,10 @@
 import { aiLabSections } from "@/utils/utils";
 import Image from "next/image";
-import picture1 from "@/../public/infra/infra1.webp";
+// import picture1 from "/ailab/1.jpg";
 
 function Page(): React.ReactNode {
   return (
-    <section className="my-10 mx-auto max-w-7xl max-md:my-4">
+    <section className="my-10 mx-auto max-w-6xl max-md:my-4">
       <div className="shadow-md rounded-md max-sm:px-3 p-4 max-md:p-3 border mx-4">
         <h2 className="text-2xl font-bold text-sky-600 text-center mb-2 max-sm:text-xl max-sm:mb-2">
           بخش آزمایشگاه هوش نفت
@@ -58,9 +58,11 @@ function Page(): React.ReactNode {
             </div>
             <div className=" self-center">
               <Image
-                src={picture1}
+                src={section.picture}
+                width={600}
+                height={600}
                 alt="llm"
-                className=" object-cover rounded"
+                className=" object-cover rounded w-full"
               />
             </div>
           </div>

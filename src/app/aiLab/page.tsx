@@ -1,6 +1,5 @@
 import { aiLabSections } from "@/utils/utils";
 import Image from "next/image";
-// import picture1 from "/ailab/1.jpg";
 
 function Page(): React.ReactNode {
   return (
@@ -73,47 +72,3 @@ function Page(): React.ReactNode {
 }
 
 export default Page;
-
-/*
-    <div className="my-10 text-justify max-sm:px-3 px-4 max-md:my-4">
-      <header className="">
-        <h1 className="">بخش آزمایشگاه هوش نفت</h1>
-        <p className="">
-          راهکارهای پیشرفته برای بهینه‌سازی، تحلیل داده‌ها و بهبود عملکرد
-          پالایشگاه‌ها
-        </p>
-      </header>
-      <main className="">
-        {aiLabSections.map((section, index) => (
-          <section key={index} className="">
-            <h2 className="">{section.title}</h2>
-            <p className="">{section.description}</p>
-            <div className="">
-              <h3 className="">کاربردها:</h3>
-              <ul className="">
-                {section.applications.map((app, idx) => (
-                  <li key={idx}>{app}</li>
-                ))}
-              </ul>
-            </div>
-            <div className="">
-              <h3 className="">ایده‌های جدید:</h3>
-              <ul className="">
-                {section.ideas.map((idea, idx) => (
-                  <li key={idx}>{idea}</li>
-                ))}
-              </ul>
-            </div>
-            <div className="">
-              <h3 className="">روند کار:</h3>
-              <ol className="">
-                {section.steps.map((step, idx) => (
-                  <li key={idx}>{step}</li>
-                ))}
-              </ol>
-            </div>
-          </section>
-        ))}
-      </main>
-    </div>
-*/

@@ -4,9 +4,8 @@ import picture2 from "@/../public/infra/infra2.webp";
 import picture3 from "@/../public/infra/infra3.webp";
 import picture4 from "@/../public/infra/infra4.webp";
 import picture5 from "@/../public/infra/infra5.webp";
-
-import picture6 from "@/../public/infra/infra1.webp";
-import picture7 from "@/../public/infra/infra2.webp";
+import picture6 from "@/../public/infra/infra6.webp";
+import picture7 from "@/../public/infra/infra7.webp";
 
 function Page() {
   return (
